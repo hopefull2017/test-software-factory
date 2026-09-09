@@ -1,0 +1,15 @@
+id: TICKET-ID
+objective: >
+  One or two sentences: what outcome this ticket is asking for.
+
+acceptance_criteria:
+  - Specific, testable criterion 1
+  - Specific, testable criterion 2
+
+scope: >
+  What's explicitly in scope. What's explicitly out of scope, if relevant.
+
+source_references:
+  - Where this requirement came from (a Jira link, a conversation, a doc)
+
+status: REQUIREMENTS_APPROVED

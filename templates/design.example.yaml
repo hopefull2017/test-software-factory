@@ -1,0 +1,29 @@
+task_id: TICKET-ID
+objective: >
+  Restated from task.yaml, so this file is self-contained without needing to reopen the ticket.
+
+options_considered:
+  - name: Option A
+    summary: What this approach is
+    pros: [why it's good]
+    cons: [why it's a tradeoff]
+  # For trivial changes, one entry noting no real alternative existed, and why, is fine.
+
+recommended_approach: The chosen option
+rationale: >
+  Why this approach, tied to real architecture constraints (thin storefront, modular monolith,
+  reuse of existing patterns) — not just "seemed reasonable."
+
+affected_modules:
+  - path/to/module/or/file
+
+pattern_classification:
+  known_pattern: true
+  pattern_id: short-identifier-for-this-pattern
+  rationale: Why this does or doesn't match something already established in the codebase
+
+open_questions:
+  - Anything genuinely unresolved, if there is anything
+
+non_goals:
+  - What this change deliberately does not do
