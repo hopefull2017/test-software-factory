@@ -13,6 +13,8 @@ Explore the codebase before proposing anything — do not propose a design from 
 
 Consider at least two approaches where a real choice exists. For genuinely trivial changes, it is acceptable to state that no real alternative exists and say why — don't manufacture a false choice.
 
+Before proposing anything, check `.factory/patterns.md` for an established pattern that already covers this ticket's technical approach. If one does, set `pattern_classification.known_pattern: true`, cite its `pattern_id`, and do not re-litigate it with a fresh options/pros/cons write-up — go straight to what's actually specific to this ticket (the fields, the validation, the one real open question). Reserve the full options-considered treatment for tickets where nothing established covers the approach, in which case set `known_pattern: false` and propose the new pattern.
+
 Prefer framework-native capabilities and existing patterns over new abstractions. Do not scope beyond what the ticket actually asks for.
 
 Do not implement anything. Do not write product code.
